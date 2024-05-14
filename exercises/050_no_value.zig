@@ -74,7 +74,7 @@ pub fn main() void {
     // Note we need the "{!s}" format for the error union string.
     std.debug.print("{s} {!s} / ", .{ first_line1, first_line2 });
 
-    printSecondLine();
+    try printSecondLine();
 }
 
 fn printSecondLine() !void {

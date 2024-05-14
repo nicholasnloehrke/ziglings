@@ -7,11 +7,7 @@
 //
 // We have the start of an error set, but we're missing the condition
 // "TooSmall". Please add it where needed!
-const MyNumberError = error{
-    TooBig,
-    TooSmall,
-    TooFour
-};
+const MyNumberError = error{ TooBig, TooSmall, TooFour };
 
 const std = @import("std");
 
